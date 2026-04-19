@@ -1,0 +1,20 @@
+{
+  "name": "collaborative-code-editor-backend",
+  "version": "1.0.0",
+  "description": "Real-time collaborative code editor backend server with Express and Socket.io",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["collaborative", "editor", "realtime", "socket.io", "yjs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3",
+    "y-socket.io": "^1.1.3"
+  }
+}
